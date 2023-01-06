@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+        body {
+            font-family: 'Poppins', Arial, Helvetica, sans-serif;
+            /* Medidas Absolutas
+            cm(CENTÍMETRO), mm(MILÍMETRO), in(POLEGADA), px(PIXEL), pt(PONTO), pc(PAICA)
+
+            Medidas Relativas
+            em(ALTURA M DA FONTE), ex(ALTURA X DA FONTE), rem(EM FONTE QUE ESTÁ CONFIGURADA NO BODY), vw(LARGURA DA VIEWPORT), vh(ALTURA DA VIEWPORT), %(PORCENTAGEM)
+            */
+            /* 16px geralmente = 1em que geralmente é o tamanho padrão */
+            font-size: 1em;
+            font-weight: normal;
+            font-style: italic;
+            text-decoration: underline;
+
+            /* lighter  normal  bold  bolder */
+
+            /* weight(PESO)  width(LARGURA)  height(ALTURA) */
+        }
+
+        h1 {
+
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            font-size: 3em;
+            font-style: italic; 
+            */
+            font: italic bold 3em 'Poppins', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, fuga ex officiis repellat blanditiis odit quos modi, fugit officia nesciunt cupiditate aperiam laudantium soluta fugiat dignissimos nulla atque esse explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptate eum quidem similique veritatis ducimus porro rem, cum laboriosam, impedit iste repudiandae necessitatibus, consequuntur earum! Ratione labore necessitatibus est quas!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam animi, libero mollitia est debitis consectetur nihil impedit quo dolorum officia aperiam delectus laudantium cumque sint reiciendis, cupiditate rerum molestiae fugit.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, odit nihil, ea earum autem quo fugiat aliquid tempore labore velit hic exercitationem adipisci sunt necessitatibus beatae nulla reprehenderit molestias repellat.</p>
+</body>
+</html>

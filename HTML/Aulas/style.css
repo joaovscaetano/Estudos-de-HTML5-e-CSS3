@@ -1,0 +1,27 @@
+body{
+    background-color: #7ba3c5;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.atencao-favicon{
+    color:#000000;
+}
+.hierarquia{
+    color: #ff0000;
+}
+.lorem{
+    color:#e0e0e0;
+}
+.h4s{
+    color:#00ffff;
+}
+.h3s{
+    color:#8a2be2;
+}
+.h2s{
+    color:#023a186b;
+}
+.h1s{
+    color:#ff0000;
+}
