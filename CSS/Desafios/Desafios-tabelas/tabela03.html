@@ -17,6 +17,8 @@
         caption {
             font: bold 1.3em Arial, Helvetica, sans-serif;
             padding: 10px;
+            background-color: lightgray;
+            border-radius: 5px 5px 0px 0px;
         }
 
         thead >tr > th{
@@ -27,15 +29,26 @@
             text-align: center;
         }
 
-        th td {
+        th {
             border: 1px solid black;padding: 10px;
+            text-align: center;
+        }
+
+        .horizontal {
+            background-color: gray;
+            color: white;
+        }
+
+        td {
+            border: 1px solid black;padding: 10px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <h1>Exercício de Tabelas</h1>
     <table>
-        <caption>Filmes Favoritos</caption>
+        <caption>Médias</caption>
         <thead>
             <tr>
                 <th scope="row" rowspan="2">Área</th>
@@ -51,6 +64,49 @@
         <tbody>
             <tr>
                 <th scope="rowgroup" rowspan="4">Exatas</th>
+                <td>Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th scope="col" colspan="4" class="horizontal">Média de Exatas</th>
+                <td class="horizontal">0.0</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th scope="row" class="horizontal" colspan="4">Média de Humanas</th>
+                <td class="horizontal">0.0</td>
             </tr>
         </tbody>
     </table>
